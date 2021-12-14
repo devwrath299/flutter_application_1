@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
       
       appBar: AppBar(
         title: Text("Catalog App"),
-        backgroundColor: Colors.purple,
+        
       ),
       body: Center(
         child: Container(
