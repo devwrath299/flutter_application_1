@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Widgets/drawer.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -7,7 +8,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     int ys = 7;
     return Scaffold(
-      backgroundColor:Colors.pink[100],
+      
       appBar: AppBar(
         title: Text("Catalog App"),
         backgroundColor: Colors.purple,
@@ -18,8 +19,7 @@ class Home extends StatelessWidget {
           
         ),
       ),
-      drawer: Drawer(  
-      ),
+      drawer: MyDrawer(),
     );
   }
 }
